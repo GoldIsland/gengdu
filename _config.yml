@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl: gengdu/
-url: https://goldisland.github.io/gengdu/   
+url: https://goldisland.github.io/
 date_format: "ordinal"
 title: 耕读
 subtitle: "默默耕耘，提升自己"

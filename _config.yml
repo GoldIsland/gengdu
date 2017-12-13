@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl: gengdu/
-url: https://goldisland.github.io/
+url: https://goldisland.github.io/gengdu
 date_format: "ordinal"
 title: 耕读
 subtitle: "默默耕耘，提升自己"
@@ -18,7 +18,7 @@ side_bar_repo_limit: 5
 author: Feng Han
 organization: 
 organization_url: 
-github_username: hanfeng
+github_username: GoldIsland
 location: Changsha, Hunan, China
 email: 
 

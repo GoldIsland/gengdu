@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 默默耕耘，提升自己
+keywords: feng han, 韩枫
 comments: true
 menu: 关于
 permalink: /about/

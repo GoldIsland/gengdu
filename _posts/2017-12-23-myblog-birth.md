@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post/gengdu
 title: 本博客诞生的过程
 categories: [github]
 description: github pages, jekyll

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 本博客诞生的过程
-categories: [github]
+categories: [blogs]
 description: github pages, jekyll
 keywords: jekyll demo
 ---
@@ -47,6 +47,8 @@ https://github.com/mzlogin/mzlogin.github.io/issues/48
 这点我要说一下， 可以在网上跟大神交流的感觉特别的好，我写博客的初衷也是可以和别人进行交互。
 把自己会的教给别人，别人在应用的时候遇到的问题反馈给我，这样来完善。
 3. 首页跳转失败，分类跳转失败
+首页在_config.yml中定义```navs:```, 在header.html中末尾可以找到, 需要在{{ nav.href }}的位置前面,加上{{site.url}}
+这样,首页/分类/维基等都会加上相关的url,就可以正常跳转了.
 4. 未增加comments内容
 
 好吧，我是参考的马壮的博客。饮水思源

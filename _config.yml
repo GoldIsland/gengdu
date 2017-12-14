@@ -99,7 +99,7 @@ comments_provider: gitalk
 # # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: GoldIsland
-    repo: blog-comments
+    repo: gengdu
     clientID: 3499fef8b229538beec2
     clientSecret: 554c052687e5f61f00827c0cae5af9de66810acf
 # # 在使用其它评论组件时可点击显示 Disqus

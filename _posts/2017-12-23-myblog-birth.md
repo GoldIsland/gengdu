@@ -29,7 +29,11 @@ https://github.com/GoldIsland/gengdu
 通过修改_config.yml
 文件，将这个博客占为己有。
 
-# 三. 遇到的问题
+# 三．维护博客用到的sit指令
+1. git add . ;git commit -m "little modify"; git push;
+
+
+# 四. 遇到的问题
 1. 加载css失败
 
 打开_includes中，会发现有一个header.html文件

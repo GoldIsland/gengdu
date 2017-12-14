@@ -50,7 +50,20 @@ https://github.com/mzlogin/mzlogin.github.io/issues/48
 首页在_config.yml中定义```navs:```, 在header.html中末尾可以找到, 需要在{{ nav.href }}的位置前面,加上{{site.url}}
 这样,首页/分类/维基等都会加上相关的url,就可以正常跳转了.
 4. 未增加comments内容
-
+`https://calpa.me/2017/08/04/utilize-github-issue-by-using-gitalk/`
+参考这个网址,做了一个gitalk的评论,直接和github账号联通的,而且码志的模板直接支持
+git clone git@github.com:gitalk/gitalk.git
+cd gitalk/dist/
+将gitalk在github上download下来之后,放入自己的工程里,然后更改配置文件_config.yml就可以了
+```
+gitalk:
+    owner: GoldIsland
+    repo: gengdu
+    clientID: 3499fef8b229538beec2
+    clientSecret: 554c052687e5f61f00827c0cae5af9de66810acf
+```
+repo是自己博客的github工程,clientID和clientSecret要自己申请,[Register a new OAuth application](https://github.com/settings/applications/new),其中
+Authorization callback URL填写当前使用插件的域名，例如我的博客就是填写 `https://goldisland.github.io`
 好吧，我是参考的马壮的博客。饮水思源
 http://mazhuang.org/
 

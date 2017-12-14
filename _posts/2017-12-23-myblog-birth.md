@@ -35,24 +35,18 @@ https://github.com/GoldIsland/gengdu
 
 # 四. 遇到的问题
 1. 加载css失败
-
 打开_includes中，会发现有一个header.html文件
-<link rel="stylesheet" href="{{ site.url }}/assets/vendor/primer-css/css/primer.css">
+```  <link rel="stylesheet" href="{{ site.url }}/assets/vendor/primer-css/css/primer.css"> ```
 这就是加载失败的地方，这个模板的作者，将一些公用的抬头html文件放在了这里。
 site.url 就是_config.yml中的url属性。
-
 其他的都是显示性的内容，主要是这个url
-
 2. 博客地址点击跳转失败
 https://github.com/mzlogin/mzlogin.github.io/issues/48
 这个我给原作者-马壮提了一个issue， 没想到他很快就回复了，对博客模板做了一些修改。
 针对这些修改，我也看到了jekyll的一些使用方法，我决定剩下的问题，先留着，然后自己来修改。
-
 这点我要说一下， 可以在网上跟大神交流的感觉特别的好，我写博客的初衷也是可以和别人进行交互。
 把自己会的教给别人，别人在应用的时候遇到的问题反馈给我，这样来完善。
-
 3. 首页跳转失败，分类跳转失败
-
 4. 未增加comments内容
 
 好吧，我是参考的马壮的博客。饮水思源

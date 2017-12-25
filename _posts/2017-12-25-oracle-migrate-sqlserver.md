@@ -23,7 +23,11 @@ keywords: oracle, Sql server
 3. 由于oracle中的数据类型不一定存在于sqlserver中，所以要配置这些类型需要转化为哪种sqlserver类型
 
 <div align="center"><img width="192px" height="192px" src="https://goldisland.github.io/gengdu/assets/images/tech/oracle-sqlserver.png"/></div>
+
 ![](/images/tech/oracle-sqlserver.png)
+
+![](/images/blog/1024-kuaishou.jpeg)
+
 
 按照步骤
 1. connect to oracle ， connect to sql server

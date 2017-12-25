@@ -3,7 +3,7 @@ layout: post
 title: 本博客诞生的过程
 categories: [blogs]
 description: github pages, jekyll
-keywords: jekyll demo
+keywords: jekyll demo, github pages, jekyll, demo, 问题
 ---
 
 一直想有一个个人的博客，但是搭建自己的网站要维护域名之类的，就一直没有开始。
@@ -29,7 +29,7 @@ https://github.com/GoldIsland/gengdu
 通过修改_config.yml
 文件，将这个博客占为己有。
 
-# 三．维护博客用到的sit指令
+# 三．维护博客用到的git指令
 1. git add . ;git commit -m "little modify"; git push;
 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: template page
+title: 工作中遇到的概念
 categories: [工作]
 description: 开发功能的规范文档
 keywords: 工作,概念

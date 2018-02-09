@@ -1,12 +1,13 @@
 ---
 layout: post
 title: jenkins、ant、svn、eclipse实现自动编译和自动部署
-categories: [cate1, cate2]
+categories: [技术, jenkins]
 description: jenkins实现
-keywords: jenkins，ant，
+keywords: jenkins，ant，svn，eclipse
 ---
 
 一、 前期准备
+
 	apache-ant-1.9.0-bin.zip
 	apache-tomcat-7.0.73.zip
 	jenkins-2.89.3.zip

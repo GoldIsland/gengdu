@@ -37,22 +37,22 @@ keywords: jenkins，ant，
 		其中ant必须要配置ANT_HOME，并且在Path中复制上ant的bin目录，也就是在windows环境下，cmd运行ant可以运行。
 
 	2. 新建一个任务，选择“构建一个自由风格的软件项目”，名称为test,并点击页面下面的“确定”
-<div align="center"><img width="800px" height="500px" src="https://goldisland.github.io/gengdu/images/posts/jenkins_new1.png"/></div>
+<div align="center"><img width="800px" height="500px" src="https://goldisland.github.io/gengdu/images/posts/jenkins/jenkins_new1.png"/></div>
 
 	3. General配置--点击丢弃旧的构建，并如图设置
-<div align="center"><img width="800px" height="500px" src="https://goldisland.github.io/gengdu/images/posts/jenkins_new_general.png"/></div>
+<div align="center"><img width="800px" height="500px" src="https://goldisland.github.io/gengdu/images/posts/jenkins/jenkins_new_general.png"/></div>
 
 	4. 源码管理--Subversion,点击add，添加svn用户名和密码
-<div align="center"><img width="800px" height="500px" src="https://goldisland.github.io/gengdu/images/posts/jenkins_new_srcmanege.png"/></div>	
-<div align="center"><img width="800px" height="500px" src="https://goldisland.github.io/gengdu/images/posts/jenkins_new_srcmanege_user.png"/></div>	
+<div align="center"><img width="800px" height="500px" src="https://goldisland.github.io/gengdu/images/posts/jenkins/jenkins_new_srcmanege.png"/></div>	
+<div align="center"><img width="800px" height="500px" src="https://goldisland.github.io/gengdu/images/posts/jenkins/jenkins_new_srcmanege_user.png"/></div>	
 
 	5. 构建触发器--Poll SCM ，参数为 “* * * * *”，表示每分钟都检查是否有代码上传，如果有就编译，并发布web系统
 
-<div align="center"><img width="800px" height="500px" src="https://goldisland.github.io/gengdu/images/posts/jenkins_new_gjcfq.png"/></div>
-<div align="center"><img width="800px" height="500px" src="https://goldisland.github.io/gengdu/images/posts/jenkins_new_gjhj.png"/></div>	
+<div align="center"><img width="800px" height="500px" src="https://goldisland.github.io/gengdu/images/posts/jenkins/jenkins_new_gjcfq.png"/></div>
+<div align="center"><img width="800px" height="500px" src="https://goldisland.github.io/gengdu/images/posts/jenkins/jenkins_new_gjhj.png"/></div>	
 
 	6. 构建--选择invoke ant和Execute Windows batch command,
 
-<div align="center"><img width="800px" height="500px" src="https://goldisland.github.io/gengdu/images/posts/jenkins_new_gj.png"/></div>	
+<div align="center"><img width="800px" height="500px" src="https://goldisland.github.io/gengdu/images/posts/jenkins/jenkins_new_gj.png"/></div>	
 
 	7. 保存，然后运行立即构建即可

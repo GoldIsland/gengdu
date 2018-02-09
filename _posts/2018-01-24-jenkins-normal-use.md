@@ -55,3 +55,40 @@ keywords: jenkins，ant，svn，eclipse
 <div align="center"><img width="800px" height="500px" src="https://goldisland.github.io/gengdu/images/posts/jenkins/jenkins_new_gj.png"/></div>	
 
 7. 保存，然后运行立即构建即可
+
+四、遇到的问题
+
+1. 在找不到build.xml文件
+    需要在java项目中，用eclipse生成build.xml文件；
+    eclipse生成的文件在代码目录中，然后上传到svn上；
+    随后在invoke ant中，选择 Build File 中 直接写build.xml
+    Target用dist，需要在eclipse生成的build.xml文件中添加下面内容：
+    ```
+    <!-- 将工程打成war包 -->
+    <target name="dist" depends="build" description="将工程打成war包">
+        <war destfile="${ant.project.name}.war" basedir="web" webxml="web/WEB-INF/web.xml" />
+    </target>
+    ```
+
+2. 用ant编译时出现“编码 UTF8 的不可映射字符“，
+	解决办法：在javac标签中增加一个属性encoding=”UTF-8”
+    ```
+    <target name="compile" depends="init">
+        <javac encoding="UTF-8" srcdir="${src}" destdir="${dest}">
+             <classpath>
+            <fileset dir="${lib}">
+                <include name="*.jar" />
+            </fileset>
+            </classpath>
+        </javac>           
+    </target>
+    ```
+3. windows执行发布的shell时，系统找不到指定的文件
+This happens if you have specified your Windows command as "Execute shell" rather than "Execute Windows batch command".
+
+4. ant.bat 不是系统内部命令
+需要将ant/bin加入path路径，并设置ant_home
+
+5. tomcat shutdown 指令执行完之后，就不再继续执行，
+在shutdown前面应该加上 call
+

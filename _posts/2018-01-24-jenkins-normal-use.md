@@ -21,8 +21,7 @@ keywords: jenkins，ant，svn，eclipse
 
 ### 二、安装配置步骤
 	
-##### 1. 双击jenkins.msi
-	直接安装完毕
+##### 1. 双击安装jenkins.msi
 
 ##### 2. 将initialAdminPassword文件中的密码复制到“Administrator password”中
 
